@@ -1,0 +1,77 @@
+form p{
+    background-color: rgb(113, 194, 241);
+    text-align: center;
+    padding:3px;
+    font-weight: bold;
+}
+
+header{
+    background-color: orange;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    padding:10px;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: brown;    
+}
+
+aside{
+    float: left;
+    width: 30%;
+    font-size: small;
+    margin-top:3px;
+    border-style: solid;
+    border-width: 1px;
+    text-transform: capitalize;
+}
+
+aside li{
+    padding: 5px;
+}
+
+article{
+    width: fit-content;
+    float: right;
+    padding-right: 50px;
+}
+
+article table{
+    margin-left:auto; 
+    margin-right:auto;
+    padding:20px;
+}
+
+article table td{
+    padding:5px;
+}
+
+article div input, textarea{
+    width: 100%;
+}
+
+article input[type="submit"]{
+    background-color: rgb(57, 107, 214);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:32%;
+}
+
+article input[type="reset"]{
+    background-color: rgb(214, 57, 57);
+    width:32%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article input[type="button"]{
+    background-color: rgb(70, 214, 57);
+    width:32%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article div div{
+    box-shadow: 20px 20px 5px grey;
+    margin-bottom:50px;
+}
